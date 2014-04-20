@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="myName" width="578" height="200"></canvas>
+    <script>
+      var canvas = document.getElementById('myName');
+      var context = canvas.getContext('2d');
+
+      context.strokeStyle = "black";
+      context.lineWidth = 6;
+      context.beginPath();
+
+
+      context.moveTo(100, 100);
+      context.lineTo(75, 175);
+      context.moveTo(100, 100);
+      context.lineTo(125, 175);
+      context.moveTo(55, 175);
+      context.lineTo(145, 175);
+      context.moveTo(55, 175);
+      context.lineTo(75, 195);
+      context.moveTo(145, 175);
+      context.lineTo(125, 195);      
+    
+      context.moveTo(155, 100);
+      context.lineTo(155, 175);
+      context.moveTo(155, 100);
+      context.lineTo(200, 100);
+      context.moveTo(200, 135);
+      context.lineTo(155, 135);
+      context.moveTo(200, 175);
+      context.lineTo(155,175);
+
+      context.moveTo(220, 100);
+      context.lineTo(220, 175);
+      context.moveTo(220, 140); 
+      context.lineTo(260, 140);
+      context.moveTo(260, 100);
+      context.lineTo(260, 175); 
+
+
+      context.moveTo(275, 100); 
+      context.lineTo(275, 175); 
+      context.moveTo(275, 170);
+      context.lineTo(320, 100); 
+      context.moveTo(320, 100);
+      context.lineTo(320, 175);
+
+      context.moveTo(380, 100);
+      context.lineTo(335, 100);
+      context.moveTo(335, 100);
+      context.lineTo(335, 175);
+      context.moveTo(335, 175);
+      context.lineTo(380, 175);
+      
+      context.stroke();
+    </script>
+  </body>
+</html>
